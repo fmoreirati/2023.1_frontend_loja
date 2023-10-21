@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;800&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Nunito', sans-serif;
     font-size: 14px;
 }
 
-a{
+a {
     text-decoration: none;
     color: #222;
 }
 
-header{
+header {
     background-color: #23160c;
     opacity: 0.9;
     color: #eee;
@@ -26,35 +26,60 @@ header{
     /* padding: 5px 0 25px 0; */
 }
 
-header nav a{
+header nav a {
     text-decoration: none;
     color: #ddb99d;
     padding: 10px
 }
 
-header nav a:hover{
+header nav a:hover {
     border-bottom: solid 4px #ddb99d;
     color: #eee;
 }
 
-.right{
+.right {
     text-align: right;
 }
 
-.flex-nav{
+.flex-nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.white{
+.white {
     color: #eee;
 }
 
-.social-icons{
+.social-icons {
     padding-right: 20px;
 }
 
-.social-icons img{
+.social-icons img {
     padding: 0 5px;
+}
+
+.carousel-item {
+    background-color: darksalmon;
+    height: 400px;
+    position: relative;
+}
+
+.carousel-item .carousel-item-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.carousel-control-prev-icon {
+    filter: invert(1);
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
 }
