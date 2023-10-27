@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;800&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +17,7 @@ a {
 header {
     background-color: #23160c;
     opacity: 0.9;
-    color: #eee;
+    color: var(--white);
     text-align: center;
     padding-top: 5px;
     padding-bottom: 25px;
@@ -28,13 +26,13 @@ header {
 
 header nav a {
     text-decoration: none;
-    color: #ddb99d;
+    color: var(--salmon);
     padding: 10px
 }
 
 header nav a:hover {
-    border-bottom: solid 4px #ddb99d;
-    color: #eee;
+    border-bottom: solid 4px var(--salmon);
+    color: var(--white)
 }
 
 .right {
@@ -47,9 +45,7 @@ header nav a:hover {
     align-items: center;
 }
 
-.white {
-    color: #eee;
-}
+
 
 .social-icons {
     padding-right: 20px;
@@ -60,7 +56,7 @@ header nav a:hover {
 }
 
 .carousel-item {
-    background-color: darksalmon;
+    background-color: var(--salmon);
     height: 400px;
     position: relative;
 }
@@ -92,17 +88,20 @@ header nav a:hover {
 
 /* Mobile */
 @media (max-width:980px) {
-    .logo{
+    .logo {
         display: none;
     }
-    .flex-nav{
+
+    .flex-nav {
         flex-direction: column;
     }
-    .flex-nav a{
+
+    .flex-nav a {
         display: flex;
         justify-content: center;
     }
-    .navbar-toggler-icon{
+
+    .navbar-toggler-icon {
         background-image: url(/img/icons/bars-solid.svg);
     }
 }

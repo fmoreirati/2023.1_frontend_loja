@@ -1,0 +1,33 @@
+/* Colors */
+.white {
+    color: var(--white);
+}
+
+.black {
+    color: var(--black);
+}
+
+.brow {
+    color: var(--brow);
+}
+
+.salmon {
+    color: var(--salmon);
+}
+
+/* Backgrounds */
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-black {
+    background-color: var(--black);
+}
+
+.bg-brow {
+    background-color: var(--brow);
+}
+
+.bg-salmon {
+    background-color: var(--salmon);
+}
