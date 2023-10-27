@@ -71,7 +71,6 @@ header nav a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 .carousel-control-prev-icon {
@@ -90,3 +89,20 @@ header nav a:hover {
     max-width: 1280px;
     margin: auto;
 } */
+
+/* Mobile */
+@media (max-width:980px) {
+    .logo{
+        display: none;
+    }
+    .flex-nav{
+        flex-direction: column;
+    }
+    .flex-nav a{
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-toggler-icon{
+        background-image: url(/img/icons/bars-solid.svg);
+    }
+}
