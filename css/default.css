@@ -90,6 +90,28 @@ header nav a:hover {
     margin: auto;
 } */
 
+.form-contact input[type='text'],
+.form-contact input[type='tel'],
+.form-contact input[type='email'],
+.form-contact textarea{   
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #ddb99d;
+    border: solid 1px #eee;
+    border-radius: 5px;
+    width: 100%;
+}   
+
+
+button{
+    padding: 5px 10px;
+    background-color: #fff;
+    border: solid 2px #ffaa00;
+}
+
+
+
+
 /* Mobile */
 @media (max-width:980px) {
     .logo{
