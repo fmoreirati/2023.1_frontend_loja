@@ -15,6 +15,10 @@
     color: var(--salmon);
 }
 
+.gold {
+    color: var(--gold);
+}
+
 /* Backgrounds */
 .bg-white {
     background-color: var(--white);
@@ -30,4 +34,8 @@
 
 .bg-salmon {
     background-color: var(--salmon);
+}
+
+.bg-gold {
+    background-color: var(--gold);
 }

@@ -30,7 +30,8 @@ header nav a {
     padding: 10px
 }
 
-header nav a:hover {
+header nav a:hover,
+header nav a:active {
     border-bottom: solid 4px var(--salmon);
     color: var(--white)
 }
@@ -44,8 +45,6 @@ header nav a:hover {
     justify-content: space-around;
     align-items: center;
 }
-
-
 
 .social-icons {
     padding-right: 20px;
@@ -85,6 +84,54 @@ header nav a:hover {
     max-width: 1280px;
     margin: auto;
 } */
+
+hr {
+    border: solid 1px var(--gold);
+}
+
+/* Button */
+button {
+    padding: 10px 15px;
+    background-color: var(--white);
+    border: solid 2px var(--gold);
+    border-radius: 4px;
+}
+
+button:hover {
+    color: var(--white);
+    background-color: var(--gold);
+    border: solid 2px var(--gold);
+}
+
+/* Fonts */
+.cursive {
+    font-size: 2em;
+    font-family: cursive;
+}
+
+.titles {
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.context {
+    font-size: 1.5em;
+}
+
+/* Footer */
+footer a {
+    color: var(--white);
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+    padding: 5px 0;
+}
 
 /* Mobile */
 @media (max-width:980px) {
